@@ -1,0 +1,113 @@
+/*Common*/
+body {
+    background: url(img/poppy_field.jpg)  no-repeat;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+}
+div.title{
+    background: goldenrod no-repeat;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 700px;
+    margin-bottom: 200px;
+    margin-left: 700px;
+}
+/*Header*/
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 7.5em;
+    letter-spacing: -0.025em;
+    color: green;
+    margin: 0.5em 0 0.5em 0;
+}
+h2 {
+    font-weight: 300;
+    font-size: 3.8em;
+    margin: -0.4em 0 0 1.0em;
+    letter-spacing: 0.05em;
+    color: yellow;
+    text-transform: uppercase;
+}
+/*Purchasable Items*/
+h3 {
+    background-color: peachpuff;
+}
+section #flowerimgs {
+    background-color: #FCFBE6;
+    background-color: rgba(252,251,243,0.7);
+    margin: 0 0 2.0em;
+    padding: 1.5em  0 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;offset-x | offset-y | blur-radius | color
+}
+section div.portfolio{
+    float: left;
+    position: relative;
+    width: 250px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.4em;
+    background-color: white;
+    border-radius: 0.7em;
+}
+section div.portfolio img.flowertype {
+    width: 100%;
+}
+/*Top Help Bar*/
+nav {
+    color: black;
+    font-size: 1.7em;
+    letter-spacing: 0.02em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0 ;
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: red;
+    padding: 0.1em 0.25em;
+    background-color: white;
+}
+nav li a:hover {
+    background-color: rgba(221, 221, 217, 0.849);
+}
+nav#helpbar {
+    float: left;
+    margin: -1.7em 0 0 0;
+    padding: 0.35em;
+    background-color: rgba(204, 119, 153, 0.856);
+    height: 2.3em;
+}
+/*Middle Section*/
+section#infodump {
+    float: left;
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+    display: block;
+    border-style: solid;
+    width: 300px;
+    margin: 1.5em 0 1.5em 1.5em;
+    padding: 1.5em 0.5em 1.5em 1.5em;
+}
+/*Footer*/
+footer {
+    height: 35px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    background-color: peachpuff;
+}
+footer a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
